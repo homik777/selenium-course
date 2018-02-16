@@ -1,6 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" [<!ENTITY common SYSTEM "testng.xml">]>
 <suite name="Suite1">
-	<parameter name="environment" value="local"></parameter>
+	<parameter name="environment" value="remote"></parameter>
 	<test name="test1">
 		<classes>
 			<class name="com.testarena.tests.AddVersionTest"></class>
