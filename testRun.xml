@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" [<!ENTITY common SYSTEM "testng.xml">]>
+<suite name="Suite1">
+	<test name="test1">
+		<classes>
+			<class name="com.testarena.tests.AddVersionTest"></class>
+			<class name="com.testarena.tests.VersionTest"></class>
+			<class name="com.testarena.tests.AddReleaseTest"></class>
+			<class name="com.testarena.tests.ReleaseTest"></class>
+		</classes>
+	</test>
+	<test name="test3">
+		<classes>
+			<class name="com.testarena.tests.LoginTest"></class>
+		</classes>
+	</test>
+</suite>
